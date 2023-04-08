@@ -10,7 +10,6 @@ public class Calculator implements ActionListener{
 	JButton[] functionButtons = new JButton[9];
 	JButton addButton,subButton,mulButton,divButton,decButton, equButton, delButton, clrButton, negButton;
 	JPanel panel;
-	JLabel label1 = new JLabel("Test");
 	
 
 
@@ -35,7 +34,7 @@ public class Calculator implements ActionListener{
 		textfield.setEditable(true);
 			
 		
-		label1.setText("Label Text");
+		
 
 		addButton = new JButton("+");
 		
